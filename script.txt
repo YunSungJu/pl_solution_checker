@@ -1,4 +1,4 @@
-echo "$ ./run test/basic1.m " >> ../../sol/output.txt
+echo "$ ./run test/basic1.m " > ../../sol/output.txt
 ./run test/basic1.m   >> ../../sol/output.txt
 echo "\n$ ./run test/double.m" >> ../../sol/output.txt
 ./run test/double.m   >> ../../sol/output.txt
@@ -44,7 +44,7 @@ echo "\n$ ./run test/proc9.m" >> ../../sol/output.txt
 ./run test/proc9.m >> ../../sol/output.txt 
 
 
-echo "$ ./run -poly test/basic1.m " >> ../../sol/output2.txt
+echo "$ ./run -poly test/basic1.m " > ../../sol/output2.txt
 ./run -poly test/basic1.m   >> ../../sol/output2.txt
 echo "\n$ ./run -poly test/double.m" >> ../../sol/output2.txt
 ./run -poly test/double.m   >> ../../sol/output2.txt
